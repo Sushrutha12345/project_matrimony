@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content should flex and grow to push footer to the bottom */
+.App > *:not(footer) {
+  flex: 1;
+}

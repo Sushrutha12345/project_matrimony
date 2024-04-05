@@ -1,0 +1,33 @@
+.preferences {
+    flex-grow: 1; 
+    padding: 20px;
+    background-color: #fff; 
+}
+
+.preferences h1 {
+    margin-top: 0; 
+    color: #333; 
+}
+
+.preferences p {
+    color: #333; 
+    font-size: 16px; /* Standard size for readability */
+    line-height: 1.6; 
+    margin-bottom: 20px; /* Spacing between paragraphs */
+    max-width: 600px; 
+    font-family: 'Lato'; 
+  }
+
+  .basic-preferences {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; /* Border for the preferences section */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.preference-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; 
+}
